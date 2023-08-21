@@ -77,3 +77,28 @@ body{
 .text:hover{
     letter-spacing: 0.5em;
 }
+@media only screen and (max-width : 760px){
+    .conteiner{
+       width: 305px;
+       height: 20px;
+    }
+    .screen{
+        width: 300px;
+        height: 250px;
+        position: relative;
+        bottom: 258px;
+    }
+    .base{
+        width: 300px;
+        height: 20px;
+    }
+    .cont-1, .cont-2{
+        display: none;
+    }
+    .camera{
+        display: none;
+    }
+    .text:hover{
+        letter-spacing: 0.2em;
+    }
+}
